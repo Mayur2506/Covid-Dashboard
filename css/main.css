@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Archivo Narrow", sans-serif;
+  font-family: "Arimo", sans-serif;
+  font-family: "Kanit", sans-serif;
+}
+
+#logo {
+  width: 11rem;
+  height: 5rem;
+  margin-left: 3rem;
+}
+#nav {
+  background-color: #404040;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+}
+.navbar a {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-around; */
+  padding: 1rem;
+  font-size: 1.1rem;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  border-bottom: 0.2rem solid white;
+  font-size: 1.18rem;
+}
+#main {
+  background-color: #f3f0e8;
+<<<<<<< HEAD
+  /* height: 70rem; */
+}
+#color {
+  background-color: #f3f0e8;
+=======
+  height: 70rem;
+>>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+<<<<<<< HEAD
+  /* height: 16rem; */
+  margin-top: 5rem;
+  margin-left: 25rem;
+=======
+  height: 16rem;
+  margin-top: 5rem;
+>>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
+}
+/* main:hover{
+  border:2px solid black;
+  box-shadow: #404040;
+
+} */
+/* .totalcases,
+.totalconfirmed,
+.totaldeaths,
+.last-updated {
+  border: 2px solid #969191;
+  width: 15rem;
+  height: 7rem;
+} */
+#text {
+  font-size: 3rem;
+  /* margin-left: 35rem; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.totalcases {
+  border: 2px solid blue;
+  color: blue;
+  width: 15rem;
+  height: 7rem;
+}
+.totalcases:hover {
+  background-color: blue;
+  color: white;
+}
+.totalconfirmed {
+<<<<<<< HEAD
+  border: 0.13rem solid green;
+=======
+  border: 2px solid green;
+>>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
+  color: green;
+  width: 15rem;
+  height: 7rem;
+}
+.totalconfirmed:hover {
+  background-color: green;
+  color: white;
+}
+.totaldeaths {
+<<<<<<< HEAD
+  border: 0.13rem solid red;
+=======
+  border: 2px solid red;
+>>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
+  color: red;
+  width: 15rem;
+  height: 7rem;
+}
+.totaldeaths:hover {
+  background-color: red;
+  color: white;
+}
+
+.last-updated {
+<<<<<<< HEAD
+  border: 0.13rem solid orange;
+=======
+  border: 2px solid orange;
+>>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
+  color: orange;
+  width: 15rem;
+  height: 7rem;
+}
+.last-updated:hover {
+  background-color: orange;
+  color: white;
+}
+
+#totalcases,
+#totalconfirmed,
+#totaldeaths,
+#last-updated {
+  text-align: center;
+  font-size: 1.5rem;
+<<<<<<< HEAD
+  padding: 0.4375rem;
+=======
+  padding: 7px;
+>>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+<<<<<<< HEAD
+  font-size: 1.8rem;
+=======
+>>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
+}
+footer {
+  background-color: #37474f;
+  color: whitesmoke;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+}
+
+.arrow_up {
+  border: solid black;
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 10px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  /* float: right;
+  margin-right: 0.6rem; */
+}
+
+section {
+  font-size: 1.5rem;
+}
+<<<<<<< HEAD
+#canvas {
+  width: 90%;
+  height: 15rem;
+  background-color: #f3f0e8;
+}
+
+#slots {
+  /* margin-left: calc( 50vw - 175px );
+  margin-top: calc( 50vh - 30px ); */
+  margin-left: 42rem;
+  width: 20rem;
+  text-decoration: none;
+  height: 1.07rem;
+  /* border: none;
+  border-radius: 5px;
+  background: #fff; */
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: #666;
+  /* box-shadow: 0 6px 6px #06f; */
+  outline: none;
+}
+
+#slots:active {
+  animation: gradient 100ms;
+  background: #f88;
+  color: #fff;
+  box-shadow: none;
+}
+
+@media (max-width: 1081px) {
+  main {
+    width: 50%;
+    margin-left: 18rem;
+  }
+}
+
+@media (max-width: 998px) {
+  html {
+    font-size: 62.5%;
+  }
+  main {
+    margin-left: 18rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 360px) {
+  main {
+    margin-left: 15rem;
+    width: 35%;
+    flex-wrap: wrap;
+  }
+  #slots {
+    margin-left: 20rem;
+  }
+  #main {
+    background-color: #f3f0e8;
+    /* height: 125rem; */
+  }
+}
+
+@media (max-width: 510px) {
+  main {
+    margin-left: 14rem;
+  }
+}
+#color {
+  background-color: #f3f0e8;
+}
+=======
+>>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
