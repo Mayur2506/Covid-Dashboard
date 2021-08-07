@@ -72,19 +72,13 @@ footer {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
   position: fixed;
-<<<<<<< HEAD
   bottom: 20px;
   right: 30px;
-=======
-  bottom: 20px; 
-  right: 30px; 
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
   z-index: 99;
   /* float: right;
   margin-right: 0.6rem; */
 }
 
-<<<<<<< HEAD
 #slots {
   /* margin-left: calc( 50vw - 175px );
   margin-top: calc( 50vh - 30px ); */
@@ -108,7 +102,11 @@ footer {
   color: #fff;
   box-shadow: none;
 }
-
+@media (max-width: 1024px) {
+  .iframe {
+    margin-left: 10rem;
+  }
+}
 @media (max-width: 998px) {
   html {
     font-size: 62.5%;
@@ -145,5 +143,3 @@ footer {
     margin-left: 5rem;
   }
 }
-=======
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49

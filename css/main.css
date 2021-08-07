@@ -36,14 +36,10 @@
 }
 #main {
   background-color: #f3f0e8;
-<<<<<<< HEAD
   /* height: 70rem; */
 }
 #color {
   background-color: #f3f0e8;
-=======
-  height: 70rem;
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
 }
 
 main {
@@ -52,14 +48,9 @@ main {
   justify-content: center;
   align-items: center;
   width: 50%;
-<<<<<<< HEAD
   /* height: 16rem; */
   margin-top: 5rem;
   margin-left: 25rem;
-=======
-  height: 16rem;
-  margin-top: 5rem;
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
 }
 /* main:hover{
   border:2px solid black;
@@ -92,11 +83,7 @@ main {
   color: white;
 }
 .totalconfirmed {
-<<<<<<< HEAD
   border: 0.13rem solid green;
-=======
-  border: 2px solid green;
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
   color: green;
   width: 15rem;
   height: 7rem;
@@ -106,11 +93,7 @@ main {
   color: white;
 }
 .totaldeaths {
-<<<<<<< HEAD
   border: 0.13rem solid red;
-=======
-  border: 2px solid red;
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
   color: red;
   width: 15rem;
   height: 7rem;
@@ -121,11 +104,7 @@ main {
 }
 
 .last-updated {
-<<<<<<< HEAD
   border: 0.13rem solid orange;
-=======
-  border: 2px solid orange;
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
   color: orange;
   width: 15rem;
   height: 7rem;
@@ -141,20 +120,13 @@ main {
 #last-updated {
   text-align: center;
   font-size: 1.5rem;
-<<<<<<< HEAD
   padding: 0.4375rem;
-=======
-  padding: 7px;
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
 }
 
 h2 {
   text-align: center;
   text-decoration: underline;
-<<<<<<< HEAD
   font-size: 1.8rem;
-=======
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
 }
 footer {
   background-color: #37474f;
@@ -182,7 +154,6 @@ footer {
 section {
   font-size: 1.5rem;
 }
-<<<<<<< HEAD
 #canvas {
   width: 90%;
   height: 15rem;
@@ -263,5 +234,10 @@ section {
 #color {
   background-color: #f3f0e8;
 }
-=======
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
+
+#container {
+  background-color: #9dc5c3;
+  background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%);
+  width: 80%;
+  margin-left: 3rem;
+}

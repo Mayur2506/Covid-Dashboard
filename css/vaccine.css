@@ -39,15 +39,9 @@ footer {
   background-color: #37474f;
   color: whitesmoke;
   margin-bottom: 0%;
-<<<<<<< HEAD
   bottom: 0px;
   position: fixed;
   width: 100%;
-=======
-  /* bottom: 0px;
-  position: fixed;
-  width: 100%; */
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
 }
 
 .arrow_up {
@@ -67,19 +61,11 @@ footer {
 
 input {
   width: 30%;
-<<<<<<< HEAD
   padding: 0.75rem 1.25rem;
   margin: 0.5rem 0;
   display: inline-block;
   border: 0.07rem solid #ccc;
   border-radius: 0.25rem;
-=======
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
   box-sizing: border-box;
   margin-left: 28rem;
 }
@@ -93,7 +79,6 @@ button {
 section img {
   height: 30rem;
 }
-<<<<<<< HEAD
 
 .container {
   border: 0.2rem solid blue;
@@ -145,5 +130,3 @@ h3 {
     margin-left: 15rem;
   }
 }
-=======
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49

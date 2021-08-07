@@ -38,7 +38,3 @@ xmlhttp.onreadystatechange=function(){
 
     }   
     }
-
-
-
-

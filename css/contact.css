@@ -1,11 +1,6 @@
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
-* * {
-=======
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
-*
+
 * {
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -55,11 +50,9 @@
 .contact {
   position: relative;
   min-height: 100vh;
-<<<<<<< HEAD
+
   padding: 3.2rem 6.25rem;
-=======
-  padding: 50px 100px;
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,7 +65,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
+
   margin-top: 1.9rem;
 }
 .contactForm {
@@ -86,62 +79,45 @@
   font-size: 2.5rem;
   text-align: center;
   color: maroon;
-=======
+
   margin-top: 30px;
 }
 .contactForm {
   width: 60%;
-  padding: 75px;
+  padding: 4.7rem;
   background: rgb(188, 228, 231);
   border-radius: 10%;
-  margin: 100px;
+  margin: 6.25rem;
 }
 .contactForm h2 {
-  font-size: 40px;
+  font-size: 2.5rem;
   text-align: center;
-  color:maroon;
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
+  color: maroon;
 }
 .contactForm .inputBox {
   position: relative;
   width: 100%;
-<<<<<<< HEAD
   margin-top: 0.625rem;
-=======
-  margin-top: 10px;
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
 }
 .contactForm .inputBox input,
 .contactForm .inputBox textarea {
   width: 100%;
-<<<<<<< HEAD
   padding: 0.12rem 0;
   font-size: 0.94rem;
   margin: 2.5rem 0;
   border: none;
   border-bottom: 0.125rem solid;
-=======
-  padding: 3px 0;
-  font-size: 15px;
-  margin: 40px 0;
-  border: none;
-  border-bottom: 2px solid;
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
   outline: none;
   resize: none;
 }
 .contactForm .inputBox span {
   position: absolute;
   left: 0;
-<<<<<<< HEAD
+
   padding: 0.1875rem 0;
   font-size: 0.94rem;
   margin: 0.625rem 0;
-=======
-  padding: 3px 0;
-  font-size: 15px;
-  margin: 10px 0;
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
+
   pointer-events: none;
   transition: 0.5s;
   color: #666;
@@ -150,53 +126,41 @@
 .contactForm .inputBox input:valid ~ span,
 .contactForm .inputBox textarea:focus ~ span,
 .contactForm .inputBox textarea:valid ~ span {
-<<<<<<< HEAD
   color: crimson;
   font-size: 0.625rem;
-=======
-  color:crimson;
-  font-size: 10px;
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
+
   transform: translateY(-5px);
 }
 .contactForm .inputBox input[type="submit"] {
-  width: 100px;
+  width: 6.25rem;
   background: honeydew;
   color: rgb(7, 6, 6);
   border: none;
   cursor: pointer;
-<<<<<<< HEAD
+
   padding: 0.625rem;
   font-size: 1.125rem;
-=======
-  padding: 10px;
-  font-size: 18px;
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
+
   margin: auto;
   display: flex;
   justify-content: center;
   display: grid;
 }
 
-<<<<<<< HEAD
 .links {
   font-size: 2.5rem;
-=======
-.links 
-{
-  font-size: 40px;
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
   font-style: oblique;
   position: relative;
   text-align: center;
 }
-<<<<<<< HEAD
+
 .links a {
   text-decoration: none;
+  color: blue;
 }
-=======
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
-
+.links p {
+  color: crimson;
+}
 /* footer {
   background-color: antiquewhite;
   color: crimson;
@@ -209,15 +173,10 @@
 footer {
   background-color: #37474f;
   color: whitesmoke;
-<<<<<<< HEAD
+
   bottom: 0px;
   position: relative;
   width: 100%;
-=======
-  bottom:0px;
-  position: relative;
-  width:100%;
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
 }
 
 .arrow_up {
@@ -234,7 +193,6 @@ footer {
   /* float: right;
   margin-right: 0.6rem; */
 }
-<<<<<<< HEAD
 
 @media (max-width: 998px) {
   html {
@@ -261,5 +219,3 @@ footer {
     width: 60%;
   }
 }
-=======
->>>>>>> b44522e74d9c4ae006aac932a48c3068f23b5b49
