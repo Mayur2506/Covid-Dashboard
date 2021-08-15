@@ -1,5 +1,5 @@
 var xmlhttp=new XMLHttpRequest();
-var url='https://api.covid19india.org/data.json';
+var url='https://data.covid19india.org/data.json';
 xmlhttp.open("GET",url,true)
 xmlhttp.send();
 xmlhttp.onreadystatechange=function(){

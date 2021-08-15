@@ -47,9 +47,20 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+body {
+  background: linear-gradient(
+      to bottom right,
+      rgb(245, 98, 98),
+      rgb(240, 240, 88)
+    )
+    no-repeat;
+}
+
 .contact {
   position: relative;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  min-height: 25rem;
 
   padding: 3.2rem 6.25rem;
 
@@ -57,37 +68,22 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url(../images/bg.jpg);
-  background-size: cover;
+  /* background-size: cover; */
 }
 .container {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-
   margin-top: 1.9rem;
 }
-.contactForm {
-  width: 60%;
-  padding: 4.7rem;
-  background: rgb(188, 228, 231);
-  border-radius: 10%;
-  margin: 6.25rem;
-}
-.contactForm h2 {
-  font-size: 2.5rem;
-  text-align: center;
-  color: maroon;
 
-  margin-top: 30px;
-}
 .contactForm {
-  width: 60%;
-  padding: 4.7rem;
-  background: rgb(188, 228, 231);
-  border-radius: 10%;
-  margin: 6.25rem;
+  width: 80%;
+  padding: 3rem;
+  background: rgb(238, 243, 238);
+  border-radius: 5%;
+  margin: auto auto 3rem auto;
 }
 .contactForm h2 {
   font-size: 2.5rem;
@@ -149,17 +145,25 @@
 
 .links {
   font-size: 2.5rem;
-  font-style: oblique;
+  font-family: Georgia, "Times New Roman", Times, serif;
   position: relative;
   text-align: center;
 }
 
+.links p {
+  color: rgb(156, 13, 42);
+  font-size: 1.5rem;
+  text-align: center;
+  font-size: small;
+}
 .links a {
   text-decoration: none;
-  color: blue;
+  color: rgb(8, 8, 71);
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.links p {
-  color: crimson;
+.links a:hover {
+  color: rgb(160, 167, 182);
 }
 /* footer {
   background-color: antiquewhite;
@@ -173,9 +177,9 @@
 footer {
   background-color: #37474f;
   color: whitesmoke;
-
   bottom: 0px;
-  position: relative;
+  /* position: fixed; */
+  text-align: center;
   width: 100%;
 }
 
@@ -192,6 +196,14 @@ footer {
   z-index: 99;
   /* float: right;
   margin-right: 0.6rem; */
+}
+
+#send {
+  margin-bottom: 2rem;
+  color: rgb(117, 8, 8);
+}
+#send:hover {
+  color: rgb(230, 139, 139);
 }
 
 @media (max-width: 998px) {

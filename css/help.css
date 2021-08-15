@@ -5,9 +5,17 @@
   font-family: "Varela Round", sans-serif;
   font-size: 1.2rem;
 }
+
+p {
+  margin-left: 6rem;
+}
+ol {
+  margin-left: 6rem;
+}
 main {
   /* background-image: linear-gradient(to right, #c0c0aa, #1cefff, #c0c0aa); */
   background-color: #f3f0e8;
+  background-image: linear-gradient(to right, #eeeee4, #96f3fa, #f0f0ea);
 }
 
 #logo {
@@ -59,6 +67,7 @@ h2 {
 footer {
   background-color: #37474f;
   color: whitesmoke;
+  text-align: center;
   /* bottom:0px;
   position: fixed;
   width:100%; */
@@ -94,6 +103,7 @@ footer {
   color: #666;
   /* box-shadow: 0 6px 6px #06f; */
   outline: none;
+  margin-left: 6rem;
 }
 
 #slots:active {
@@ -117,6 +127,10 @@ footer {
   html {
     font-size: 55%;
   }
+  iframe {
+    height: 24rem;
+    width: 35rem;
+  }
   .iframe {
     margin-left: 10rem;
   }
@@ -130,6 +144,7 @@ footer {
 @media (max-width: 697px) {
   iframe {
     width: 35rem;
+    height: 18rem;
   }
   .iframe {
     margin-left: 5rem;
@@ -138,8 +153,16 @@ footer {
 @media (max-width: 405px) {
   iframe {
     width: 25rem;
+    height: 16rem;
   }
   .iframe {
     margin-left: 5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  iframe {
+    height: 14rem;
+    margin-left: 8rem;
   }
 }

@@ -1,4 +1,4 @@
-const api='https://api.covid19india.org/data.json';
+const api='https://data.covid19india.org/data.json';
 
 async function getapi(url) {
     const result = await fetch(url);
