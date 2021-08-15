@@ -1,4 +1,6 @@
 <h1 align="center"> Covid-Dashboard</h1>
+<p>A Line Chart to Visualize Current Active Cases in The States . </p>
+<img src="https://user-images.githubusercontent.com/73283087/129475885-8249f1b3-1d73-40b5-b2ed-4e87e57d47bc.jpg">
 <h3>This Webpage provides information about the <strong>Vaccine Slots</strong> Available by entering The pincode of Your Area.</h3>
 <h4>Demo :</h4>
 <p align="center">
